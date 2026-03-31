@@ -43,3 +43,12 @@ article {
 :global(.dark) .logo {
   color: #f2eff6;
 }
+
+/* Fallback dark logo styles for Tailwind v4 */
+.dark .logo {
+  color: #f2eff6;
+}
+
+.logo:where(.dark, .dark *) {
+  color: #f2eff6;
+}
