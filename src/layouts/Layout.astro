@@ -1,6 +1,6 @@
 ---
-import "../styles/global.css";
 import ThemeIcon from "../components/ThemeIcon.astro";
+import "../styles/global.css";
 
 interface Props {
   title: string;
@@ -47,10 +47,14 @@ const basePath = base + "/";
       crossorigin
     />
   </head>
-  <body class="bg-[var(--color-bg)] text-[var(--color-text)] dark:bg-[var(--color-bg-dark)] dark:text-[var(--color-text-dark)]">
+  <body
+    class="bg-[var(--color-bg)] text-[var(--color-text)] dark:bg-[var(--color-bg-dark)] dark:text-[var(--color-text-dark)]"
+  >
     <div class="min-h-screen flex flex-col">
       <header class="border-b border-black/10 dark:border-white/10">
-        <div class="mx-auto px-4 sm:px-8 py-4 flex justify-between items-center">
+        <div
+          class="mx-auto px-4 sm:px-8 py-4 flex justify-between items-center"
+        >
           <a href={basePath} class="flex items-center gap-4 no-underline">
             <svg
               alt="Logo"
@@ -60,8 +64,14 @@ const basePath = base + "/";
               viewBox="0 0 21.85 24"
             >
               <g transform="scale(0.08572244)">
-                <path fill="currentColor" d="M 251.79,41.483351 16.41,276.86335 c -1.15,1.15 -0.33,3.11 1.29,3.11 h 235.37 c 1.01,0 1.82,-0.82 1.82,-1.82 V 42.773351 c 0,-1.62 -1.96,-2.44 -3.11,-1.29 z M 215.9,240.97335 H 107.46 l 108.44,-108.44 z" />
-                <path fill="currentColor" d="M 3.11,238.43335 238.49,3.0633514 c 0.99,-0.99 0.52,-2.57999999 -0.66,-2.99999999 -0.34,-0.12 -0.73,-0.06 -1.06,0.1 L 89.56,68.993351 c -7.81,3.65 -17.06,2.01 -23.15,-4.09 L 2.64,0.84335141 c -0.89,-0.98 -2.61,-0.43 -2.64,0.88999999 0,0.01 0,0.02 0,0.03 V 237.13335 c 0,1.62 1.96,2.44 3.11,1.29 z" />
+                <path
+                  fill="currentColor"
+                  d="M 251.79,41.483351 16.41,276.86335 c -1.15,1.15 -0.33,3.11 1.29,3.11 h 235.37 c 1.01,0 1.82,-0.82 1.82,-1.82 V 42.773351 c 0,-1.62 -1.96,-2.44 -3.11,-1.29 z M 215.9,240.97335 H 107.46 l 108.44,-108.44 z"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M 3.11,238.43335 238.49,3.0633514 c 0.99,-0.99 0.52,-2.57999999 -0.66,-2.99999999 -0.34,-0.12 -0.73,-0.06 -1.06,0.1 L 89.56,68.993351 c -7.81,3.65 -17.06,2.01 -23.15,-4.09 L 2.64,0.84335141 c -0.89,-0.98 -2.61,-0.43 -2.64,0.88999999 0,0.01 0,0.02 0,0.03 V 237.13335 c 0,1.62 1.96,2.44 3.11,1.29 z"
+                ></path>
               </g>
             </svg>
             <div class="text-left">
