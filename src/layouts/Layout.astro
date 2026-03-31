@@ -1,0 +1,157 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/mz_logo.svg" />
+    <title>{title}</title>
+    <link
+      rel="preload"
+      href="/fonts/typewcond_regular.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/typewcond_bold.otf"
+      as="font"
+      type="font/otf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/georgia.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/FiraCodeNerdFont-Light.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+  </head>
+  <body class="bg-[#e9e9e9] text-[#333] dark:bg-[#1a1a1a] dark:text-[#ccc]">
+    <div class="min-h-screen flex flex-col">
+      <header class="border-b border-black/10 dark:border-white/10">
+        <div class="mx-auto px-4 sm:px-8 py-4">
+          <a href="/" class="flex items-center gap-4 no-underline">
+            <img
+              src="/mz_logo.svg"
+              alt="Logo"
+              width="40"
+              height="40"
+              class="w-11 h-11 object-contain"
+            />
+            <div class="text-left">
+              <span
+                class="block text-2xl font-bold font-typewriter text-[#111] dark:text-[#eee]"
+                >Shareworthy Notes
+              </span>
+              <span
+                class="block -mt-1 ml-0.5 text-md tracking-widest text-gray-500 font-typewriter"
+              >
+                half-crafted by mz
+              </span>
+            </div>
+          </a>
+        </div>
+      </header>
+
+      <main class="flex-1 max-w-[720px] w-full mx-auto px-4 sm:px-8 py-8">
+        <slot />
+      </main>
+
+      <footer class="text-center py-8 text-gray-400 text-sm font-typewriter">
+        <p>Marco Zausch</p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  @font-face {
+    font-family: "typewriter";
+    src: url("/fonts/typewcond_regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "typewriter";
+    src: url("/fonts/typewcond_bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "code";
+    src: url("/fonts/FiraCodeNerdFont-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  h1:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    color: #630187;
+  }
+
+  :global(.dark) a {
+    color: #66b3ff;
+  }
+
+  code,
+  pre,
+  kbd {
+    font-family: "code", monospace;
+  }
+
+  code {
+    background: #f4f4f4;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+
+  pre code {
+    background: none;
+    padding: 0;
+  }
+
+  :global(.dark) code,
+  :global(.dark) pre {
+    background: #2d2d2d;
+  }
+</style>

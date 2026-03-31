@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-typewriter: 'typewriter', sans-serif;
+  --font-code: 'code', monospace;
+}
+
+@counter-style thai-numerals {
+  system: numeric;
+  symbols: "๐" "๑" "๒" "๓" "๔" "๕" "๖" "๗" "๘" "๙";
+  suffix: " ";
+}
+
+article {
+  --tw-prose-headings: var(--font-typewriter);
+  --tw-prose-body: Georgia, "Times New Roman", serif;
+  --tw-prose-code: var(--font-code);
+  --tw-prose-pre-code: var(--font-code);
+
+  /* List spacing */
+  --tw-prose-ul-spacing: 1em;
+  --tw-prose-list-item-margin: 0.5em;
+  /* spacing between items */
+}
