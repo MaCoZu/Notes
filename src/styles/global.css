@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-typewriter: 'typewriter', sans-serif;
   --font-code: 'code', monospace;
@@ -21,5 +23,4 @@ article {
   /* List spacing */
   --tw-prose-ul-spacing: 1em;
   --tw-prose-list-item-margin: 0.5em;
-  /* spacing between items */
 }
