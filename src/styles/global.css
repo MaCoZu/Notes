@@ -7,17 +7,17 @@
   --font-typewriter: 'typewriter', sans-serif;
   --font-code: 'code', monospace;
   
-  /* Light theme - Amethyst */
-  --color-bg: #ece5ff;
-  --color-text: #1a0066;
-  --color-heading: #0d0033;
-  --color-link: #4000ff;
+  /* Light theme - Black/Amethyst */
+  --color-bg: #f2eff6;
+  --color-text: #302442;
+  --color-heading: #181221;
+  --color-link: #785ba4;
   
   /* Dark theme */
-  --color-bg-dark: #090024;
-  --color-text-dark: #d9ccff;
-  --color-heading-dark: #ece5ff;
-  --color-link-dark: #b399ff;
+  --color-bg-dark: #110d17;
+  --color-text-dark: #c9bddb;
+  --color-heading-dark: #f2eff6;
+  --color-link-dark: #ae9cc9;
 }
 
 @counter-style thai-numerals {
@@ -37,9 +37,9 @@ article {
 
 /* Logo color using currentcolor for easy theming */
 .logo {
-  color: #0d0033;
+  color: #181221;
 }
 
 :global(.dark) .logo {
-  color: #ece5ff;
+  color: #f2eff6;
 }
