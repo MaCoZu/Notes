@@ -40,15 +40,6 @@ article {
   color: #181221;
 }
 
-:global(.dark) .logo {
-  color: #f2eff6;
-}
-
-/* Fallback dark logo styles for Tailwind v4 */
-.dark .logo {
-  color: #f2eff6;
-}
-
-.logo:where(.dark, .dark *) {
+.logo-dark {
   color: #f2eff6;
 }
