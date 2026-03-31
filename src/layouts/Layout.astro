@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import ThemeIcon from "../components/ThemeIcon.astro";
 
 interface Props {
   title: string;
@@ -49,7 +50,7 @@ const basePath = base + "/";
   <body class="bg-[#e9e9e9] text-[#333] dark:bg-[#1a1a1a] dark:text-[#ccc]">
     <div class="min-h-screen flex flex-col">
       <header class="border-b border-black/10 dark:border-white/10">
-        <div class="mx-auto px-4 sm:px-8 py-4">
+        <div class="mx-auto px-4 sm:px-8 py-4 flex justify-between items-center">
           <a href={basePath} class="flex items-center gap-4 no-underline">
             <img
               src={basePath + "mz_logo.svg"}
@@ -70,6 +71,7 @@ const basePath = base + "/";
               </span>
             </div>
           </a>
+          <ThemeIcon />
         </div>
       </header>
 
