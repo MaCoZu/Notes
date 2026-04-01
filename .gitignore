@@ -1,1 +1,12 @@
 node_modules
+dist
+.astro/
+.astro/data-store.json
+
+# OS files
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+

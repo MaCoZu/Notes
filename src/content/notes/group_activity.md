@@ -9,7 +9,7 @@ date: 2026-03-31
 - **Confirmation Bias**
     -  A tendency to search for, favor, and interpret information in a way that validates pre-existing beliefs while ignoring evidence that contradicts them. </br>
       → _Find some techniques to break confirmation bias gently?_
-    - **Example:** A user searching Google for "benefits of chocolate for weight loss" while ignoring all medical articles that state the opposite.
+    - **Example:** A user searching the internet for "benefits of chocolate for weight loss" while ignoring all medical articles that state the opposite.
 
 - **Accidental Semantic Proximity**
     -  Using visual properties like color or layout that carry strong cultural associations, leading the brain to assume a relationship that is not in the data.</br>
@@ -20,7 +20,7 @@ date: 2026-03-31
 
 - **Framing Effect**
     -  The tendency for an audience to draw different conclusions from the same data depending on how it is presented, such as emphasizing gains versus losses. </br>
-      → _What are ways to present something more objective?_
+      → _What are ways to present data / findings more objectively?_
     - **Example:** Reporting that a surgery has a **90% success rate** sounds more positive to a patient than reporting it has a **10% failure rate**.
 
 - **Inappropriate Level of Abstraction**
