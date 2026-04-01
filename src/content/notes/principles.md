@@ -143,14 +143,14 @@ Numerical pattern forming many organic and aesthetic structures in nature.
 67. **Figure-Ground**:  
 The brain automatically separates visual stimuli into focal objects and background.
 68. **First Principles**:  
-Irreducible truths used as the foundation for innovation and problem solving.
+Irreducible truths used as the foundation for innovation and problem-solving.
 69. **Fitts’ Law**:  
 acquiring a target is determined by its distance and size.
 70. **Five Hat Racks**:  
 Organizing information in five ways: Category, Time, Location, Alphabet, or Continuum.
 71. **Five Tenets of Queuing**:  
 Principles for improving the psychology and experience of waiting.
-72. **Flexibility Tradeoffs**:  
+72. **Flexibility Trade-offs**:  
 As design flexibility increases, performance in specific tasks decreases.
 73. **Flow**:  
 A state of optimal experience characterized by intense focus and enjoyment.
@@ -337,7 +337,7 @@ preference for natural environments resembling the African savanna.
 164. **Scaling Fallacy**:  
 Assuming forces and interactions scale linearly with size.
 165. **Scarcity**:  
-desirability increases when items are in short supply.
+Desirability increases when items are in short supply.
 166. **Selection Bias**:  
 Distortion resulting from unrepresentative initial samples or audiences.
 167. **Self-Similarity**:  
@@ -347,64 +347,64 @@ Better recall for items at the beginning and end of a sequence.
 169. **Shaping**:  
 Training behavior through successive approximations and reinforcement.
 170. **Signal-to-Noise Ratio**:  
-maximizing essential information while minimizing distracting noise.
+Maximizing essential information while minimizing distracting noise.
 171. **Similarity**:  
-elements that look alike are automatically perceived as related.
+Elements that look alike are automatically perceived as related.
 172. **Social Proof**:  
 Uncertain individuals copy the actions of others to behavior.
 173. **Social Trap**:  
-individual short-term interest conflicting with group long-term interest.
+Individual short-term interest conflicting with group long-term interest.
 174. **Status Quo Bias**:  
-tendency to favor the current state over change.
+Tendency to favor the current state over change.
 175. **Stickiness**:  
-features (SUCCESs) that make an idea memorable and shareable.
+Features (SUCCESs) that make an idea memorable and shareable.
 176. **Storytelling**:  
 Using narrative elements to provide context and engagement.
 177. **Streetlight Effect**:  
-tendency to look for information only where it is easiest to find.
+Tendency to look for information only where it is easiest to find.
 178. **Structural Forms**:  
 Solids, frames, and shells used as basic rigid structures.
-179. **Sunk Cost Effect**:  
-continuing an endeavor purely because an investment was already made.
+179. **Sunk Cost Effect/Fallacy**:  
+Continuing an endeavor purely because an investment was already made.
 180. **Supernormal Stimulus**:  
 Exaggerated stimulus version that triggers a stronger response.
 181. **Survivorship Bias**:  
-focusing only on successful "survivors" and ignoring failures.
+Focusing only on successful "survivors" and ignoring failures.
 182. **Swiss Cheese Model**:  
-layered defenses used to prevent accidents.
+Layered defenses used to prevent accidents.
 183. **Symmetry**:  
-correspondence between configuration elements used for balance.
+Correspondence between configuration elements used for balance.
 184. **Testing Pyramid**:  
 Multilayered framework used to efficiently identify defects.
 185. **Threat Detection**:  
-identifying potential danger through hardwired mechanisms.
+Identifying potential danger through hardwired mechanisms.
 186. **Top-Down Lighting Bias**:  
-perceiving depth based on lighting from above.
+Perceiving depth based on lighting from above.
 187. **Uncanny Valley**:  
 Decline in likeability for objects that are almost human-like but not perfect.
 188. **Uncertainty Principle**:  
-act of measuring system performance can interfere with the system.
+Act of measuring system performance can interfere with the system.
 189. **Uniform Connectedness**:  
 Elements connected by visual properties like lines are perceived as related.
 190. **User-Centered vs. User-Driven Design**:  
 Understanding needs versus simply executing requests.
 191. **Veblen Effect**:  
-products become more desirable as price increases (status symbol).
+Products become more desirable as price increases (status symbol).
 192. **Visibility**:  
 Indicating system status and possible actions to aid recognition.
 193. **Visuospatial Resonance**:  
-match between visible information and internal representations.
+Match between visible information and internal representations.
 194. **von Restorff Effect**:  
 Uncommon items in a group are most likely to be remembered.
 195. **Wabi-Sabi**:  
-style emphasizing naturalness and subtle imperfection.
+Style emphasizing naturalness and subtle imperfection.
 196. **Waist-to-Hip Ratio**:  
 Physical ratio used as a cue for fitness and attractiveness.
 197. **Wayfinding**:  
 process of using environmental information to navigate to a destination.
 198. **Weakest Link**:  
-intentionally weakening an element to fail safely and protect others.
+Intentionally weakening an element to fail safely and protect others.
 199. **WYSIWYG**:  
 What You See Is What You Get; design matching delivery.
 200. **Zeigarnik Effect**:  
-unfinished tasks are remembered better than finished ones.
+Unfinished tasks are remembered better than finished ones.

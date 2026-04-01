@@ -9,8 +9,8 @@ date: 2026-03-30
 
 Before presenting any data, you must establish a solid foundation for your message:
 
-* **Establish Intent** (Exploratory vs. Explanatory): Decide if you are leading the audience to a specific conclusion (Explanatory) or providing a neutral landscape for them to discover their own insights (Exploratory)
-* **Know Your Audience:** Tailor your message to their specific issue, data literacy, time constraints, and required level of detail. Use the "Elevator Pitch" test: can you explain your core finding in 30–60 seconds?.
+* **Establish Intent**: Decide if you are leading the audience to a specific conclusion (Explanatory) or providing a neutral landscape for them to discover their own insights (Exploratory).
+* **Know Your Audience:** Tailor your message to their specific issue, data literacy, time constraints, and required level of detail. Use the "Elevator Pitch" test: can you explain your core finding in 30–60 seconds?
 * **Adopt a Logical Framework:** Structure your presentation using these models:
 
   1. **"What? → So What? → Now What?"** 
@@ -18,18 +18,18 @@ Before presenting any data, you must establish a solid foundation for your messa
   2. **COMPEL** framework: </br>
     **C**atch attention, </br>
     **O**utline background, </br>
-    **M**ake a recommendations, highlight </br>
+    **M**ake a recommendation, highlight </br>
     **P**ositives, </br>
     **E**xplain supporting context, and </br>
     **L**and the plane with a call to action.
 
-### **2. Opening with Impact**
+### **2. Open with Impact**
 
   Command attention by breaking passive listening patterns and establishing immediate relevance.
 
 * **The "Crystallize-Break" Technique**: First, build a pattern of expectations in the audience's mind, then shatter it with a surprising data point to grab attention
-* **Introduce Narrative Tension**: Start by proposing alternative hypotheses or unanswered questions to create "plot tension" that keeps the audience seeking resolution.
-* **Establish Authenticity & Trust:** If the audience feels that you care about the matter and society-at-large, the perceived truthfulness can reduce a lot of complexity and reservation.
+* **Introduce Narrative Tension**: Start by proposing alternative hypotheses or unanswered questions to create "plot tension" that keeps the audience seeking for a resolution.
+* **Establish Authenticity & Trust:** If the audience feels that you care about the matter and society-at-large, your perceived truthfulness can build trust and thereby reduce reservation and complexity.
 
 ### **3. Data and Detail Management**
 
@@ -38,7 +38,7 @@ Before presenting any data, you must establish a solid foundation for your messa
 * **Hone in on the Main Idea:** Get to your point quickly to keep the audience engaged.
 * **Add Details Sparingly:** Only include details that help the audience **feel** the intended emotion, **understand** the concept, **believe** the evidence, or **do** the requested action.
 * **Use Visual Hierarchy:** Implement headers, short paragraphs, and white space to guide the audience through your content. A clean layout signals respect for the recipient's time.
-* **Avoid Jargon:** Use simple words and short sentences. Replace dramatic or "salesy" language with accurate, genuine language.
+* **Avoid Jargon:** Use simple words and short sentences. Replace dramatic or "sales" language with accurate, genuine language.
 * **Translate Math into Human Language:** Round numbers, remove "chart junk", use clean & telling graphs.
 
 ### **4. Verbal Delivery and Presence**
@@ -52,7 +52,7 @@ Before presenting any data, you must establish a solid foundation for your messa
 
 ### **5. Engagement and "Reading the Room"**
 
-  Make your presentation a two-way transaction. Facilitate sensemaking and exploring the topic for your audience.
+  Make your presentation a two-way transaction. Facilitate sense-making and exploring the topic for your audience.
 
 * **Monitor Nonverbal Cues:** Watch for posture, facial expressions, and eye contact. If you notice arms crossed or averted eyes, adjust your delivery to re-engage the room.
 * **Couch Data in Animate Agents:** Use an "agent-patient-act" order in your storytelling; people assimilate data better when it is described in terms of active agents of change.
