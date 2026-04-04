@@ -18,8 +18,8 @@ Source:
 
 - **Thought Experiments:** 
   Use simple, concrete analogies. 
-
-To explain water scarcity, imagine a gallon jug (salt water) and three ice cubes (fresh water); humans can only drink the drops melting off the cubes. That is only 0.025% of the globe's water which is actually drinkable.
+  
+  To explain water scarcity, imagine a gallon jug (salt water) and three ice cubes (fresh water); humans can only drink the drops melting off the cubes. That is only 0.025% of the globe's water which is actually drinkable.
 
 - **The Power of 1:** 
   Focus on a single concrete chunk like _1 employee, 1 day, or 1 game_, to avoid the confusion of "big-ism".
@@ -56,7 +56,7 @@ To explain water scarcity, imagine a gallon jug (salt water) and three ice cubes
 - **Village of 100:** 
   Shrink global demographics to a village of 100 to help people empathize with distributions.
 
-- **Defer to Expertise:** If an audience has specialized "chunks" of  memory—like baseball fans with batting averages—use their specific formats.
+- **Defer to Expertise:** If an audience has specialized "chunks" of memory—like baseball fans with batting averages—use their specific formats.
 
 - **The MacGyver Principle:** Use familiar comparisons, local units of measurement or build tools from "found objects" your audience recognizes best. A Fathom was a maritime measure of depth equal to 6 feet (1.8288 m) one could also describe it as the length of:
   - 1 hockey stick—Canada

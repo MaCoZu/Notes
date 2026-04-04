@@ -11,13 +11,14 @@ Source: [Few, S. (2005). Effectively Communicating Numbers: Selecting the Best M
 - **Lookup vs. Pattern Selection:** Use **tables** for precise value lookups and **graphs** to reveal the "shape" of the data (patterns, trends, and exceptions).
 
 - **Relationship Mapping:** Match your data to the specific chart type that represents its underlying relationship:
-    - **Time-Series:** Use lines to emphasize shape.
-    - **Ranking:** Sequence by size, usually with bars.
-    - **Part-to-Whole:** Use bars; **avoid pie charts** because area is harder to compare than length.
-    - **Deviation:** Use lines or points to show differences from a target.
-    - **Distribution:** Use histograms (vertical bars) or frequency polygons (lines).
-    - **Correlation:** Use scatter plots with points and trend lines.
-    - **Nominal Comparison:** Use bars.
+
+    - **Time-Series:** → Line
+    - **Ranking:** → Bars
+    - **Part-to-Whole:** → Bars; **avoid pie charts** because area is harder to compare than length.
+    - **Deviation:** → Lines or Points to show differences from a target.
+    - **Distribution:** → Histograms (vertical bars) or Frequency Polygons (lines).
+    - **Correlation:** → Scatter plots with points and trend lines.
+    - **Nominal Comparison:** → Bars.
 
 - **Attribute Power Hierarchy:** Prioritize **2-D position** and **line length** as the most powerful visual attributes for encoding values.
 
