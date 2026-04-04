@@ -17,7 +17,9 @@ Source:
   Add brief contextual phrases (e.g., "that’s about the size of 2 Californias") to improve recall accuracy.
 
 - **Thought Experiments:** 
-  Use simple, concrete analogies. To explain water scarcity, imagine a gallon jug (salt water) and three ice cubes (fresh water); humans can only drink the drops melting off the cubes. That is only 0.025% of the globe's water which is actually drinkable.
+  Use simple, concrete analogies. 
+
+To explain water scarcity, imagine a gallon jug (salt water) and three ice cubes (fresh water); humans can only drink the drops melting off the cubes. That is only 0.025% of the globe's water which is actually drinkable.
 
 - **The Power of 1:** 
   Focus on a single concrete chunk like _1 employee, 1 day, or 1 game_, to avoid the confusion of "big-ism".
@@ -26,16 +28,16 @@ Source:
   In the same vein, use stories of a single, representative person, like the young mother you talked to, to make abstract problems relatable.
 
 - **Favor User-Friendly Numbers:** 
-  Use small, whole, and rounded numbers that fit the brain's limited memory capacity.
+  Use small, whole, and rounded numbers which are catchier.
 
-  Precision often distracts, "ballpark" numbers help the audience grasp the big picture.
+  Precision often distracts, "ballpark" numbers on the other hand help the audience grasp the bigger picture.
 
-- **Concrete Counting:** 
+- **Concrete:** 
   Count real things as whole numbers rather than fractions, or percentages, to make the statistics felt.
   
   Instead of "40% of adults," say "2 out of every 5 people" 
 
-  Put small percentages into a basket size: "1 out of 500", feels more real than "0,002 of the population".
+  Put small percentages into a basket size: "1 out of 500", feels more real than "0.2% of the population".
 
 - **Bucket Range:** 
   The above applies also to processes over time. 
@@ -47,7 +49,7 @@ Source:
   > Every day, 50 people are murdered.
 
 - **Spread Big Numbers:** 
-  Big numbers become more digestible if explained how they would distribute over time.
+  Big numbers become more digestible if it is explained how they would allocate over time.
   
   > There are more than 400 million firearms in the U.S. That’s enough for every man, woman, and child to own one, with enough left over that you could give one to every baby born in America for the next 20 years.
 
@@ -62,9 +64,9 @@ Source:
   - 1 surfboard—San Diego
   - 2 baguettes—France
 
-- **Simple Multipliers:** Favor multipliers of 1, 2, or one half. Precise numbers forgotten very fast, simple ones stick.
+- **Simple Multipliers:** Favor multipliers of 1, 2, or one half. Precise numbers are forgotten very fast, while simple ones stick.
 
-- **Target the Counterintuitive:** Use comparisons to highlight surprising disparities, such as comparing the video game industry to the film and music industries.
+- **Target the Counterintuitive:** Use comparisons to highlight surprising disparities, such as comparing the gaming industry to the film and music industries.
 
 - **Abstract to Concrete Objects:** Turn units like a "microsecond" into something demonstrable.
 
@@ -82,9 +84,9 @@ Source:
 
 - **Personalization:** Frame statistics as a personal threat or opportunity (e.g., "toxins in your own tap water") to wake up the "self" network (concern / egoism) in the brain.
 
-- **Interdimensional Recasting:** If a number doesn't make sense, convert it into a different type of quantity—time, space, distance, or even Pringles.
+- **Interdimensional Recasting:** If a number doesn't make sense, convert it into a different type of quantity like time, space, distance, or even cookies.
 
-- **Convert to Time:** Use the audience's deep experience with clock and calendar time to explain multipliers. 
+- **Convert to Time:** Use the audience's experience with clock and calendar time to explain multipliers. 
 
   > "A million seconds is 12 days; a billion seconds is 32 years"
 
