@@ -6,18 +6,18 @@
 @theme {
   --font-typewriter: 'typewriter', sans-serif;
   --font-code: 'code', monospace;
-  
+
   /* Light theme - Black/Amethyst */
-  --color-bg: #f2eff6;
+  --color-bg: #EDEAF6;
   --color-text: #302442;
-  --color-heading: #181221;
-  --color-link: #785ba4;
-  
+  --color-heading: #302442;
+  --color-link: #8A45AD;
+
   /* Dark theme */
-  --color-bg-dark: #110d17;
-  --color-text-dark: #c9bddb;
-  --color-heading-dark: #f2eff6;
-  --color-link-dark: #ae9cc9;
+  --color-bg-dark: #0F121E;
+  --color-text-dark: #EDEAF6;
+  --color-heading-dark: #EDEAF6;
+  --color-link-dark: #8A45AD;
 }
 
 @counter-style thai-numerals {
@@ -26,13 +26,28 @@
   suffix: " ";
 }
 
-article {
+.prose {
   --tw-prose-headings: var(--font-typewriter);
   --tw-prose-body: Georgia, "Times New Roman", serif;
   --tw-prose-code: var(--font-code);
   --tw-prose-pre-code: var(--font-code);
-  --tw-prose-ul-spacing: 1em;
-  --tw-prose-list-item-margin: 0.5em;
+  --tw-prose-ul-spacing: 0em;
+  --tw-prose-list-item-margin: 1rem;
+  --tw-prose-line-height: 2rem;
+  --tw-prose-padding: 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.025em;
+}
+
+.prose ul {
+  list-style-type: "๑";
+  list-style-position: outside;
+  padding-left: 0rem;
+  margin-left: 0rem;
+}
+
+.prose ul ul {
+  padding-left: 1.5rem;
 }
 
 /* Logo color using currentcolor for easy theming */
