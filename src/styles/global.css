@@ -39,6 +39,19 @@ a {
   color: var(--color-link-dark);
 }
 
+/* SVG color inheritance */
+svg {
+  --svg-link: var(--color-link);
+  --svg-text: var(--color-text);
+  color: var(--svg-text);
+}
+
+.dark svg {
+  --svg-link: var(--color-link-dark);
+  --svg-text: var(--color-text-dark);
+  color: var(--svg-text);
+}
+
 @counter-style thai-numerals {
   system: numeric;
   symbols: "๐" "๑" "๒" "๓" "๔" "๕" "๖" "๗" "๘" "๙";
