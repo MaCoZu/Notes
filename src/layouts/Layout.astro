@@ -61,7 +61,7 @@ const basePath = base + "/";
         >
           <a href={basePath} class="flex items-center gap-4 no-underline">
             <svg
-              alt="Logo"
+              aria-label="Logo"
               width="44"
               height="48"
               class="w-11 h-12 text-[var(--color-heading)] dark:text-[var(--color-heading-dark)]"
@@ -138,14 +138,6 @@ const basePath = base + "/";
 
   h1:first-child {
     margin-top: 0;
-  }
-
-  a {
-    color: var(--color-link);
-  }
-
-  :global(.dark) a {
-    color: var(--color-link-dark);
   }
 
   code,
