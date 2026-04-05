@@ -3,8 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 
 export async function getStaticPaths() {
-  const notes = await getCollection("notes");
-  return notes.map((note) => ({
+  return (await getCollection("notes")).map((note) => ({
     params: { slug: note.slug },
     props: { note },
   }));
@@ -16,16 +15,16 @@ const { Content } = await note.render();
 
 <Layout title={note.data.title}>
   <nav class="mb-8">
-    <a href="/Notes/" class="no-underline text-md font-typewriter hover:underline"
-      >← Back to notes</a
-    >
+    <a href="/Notes/" class="no-underline font-typewriter hover:underline">
+      ← Back to notes
+    </a>
   </nav>
 
   <article>
-    <h1 class="text-[var(--color-heading)] dark:text-[var(--color-heading-dark)] text-5xl font-typewriter">
+    <h1 class="text-5xl font-typewriter text-heading dark:text-heading-dark mb-2">
       {note.data.title}
     </h1>
-    <p class="text-gray-500 text-sm mb-8"></p>
+    <p class="text-gray-500 text-sm mb-8">{note.data.date.toISOString().split('T')[0]}</p>
     <div class="prose dark:prose-invert max-w-none">
       <Content />
     </div>
