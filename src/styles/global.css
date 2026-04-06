@@ -12,12 +12,22 @@
   --color-text: #4F2B3B;
   --color-heading: #351D28;
   --color-link: #422432;
+  --color-svg-link: #422432;
 
   /* Dark theme */
   --color-bg-dark: #0F121E;
   --color-text-dark: #EDEAF6;
   --color-heading-dark: #EDEAF6;
   --color-link-dark: #E2CAD5;
+  --color-svg-link-dark: #E2CAD5;
+}
+
+:root {
+  --svg-link: var(--color-svg-link);
+}
+
+.dark {
+  --svg-link: var(--color-svg-link-dark);
 }
 
 @counter-style thai-numerals {
