@@ -26,6 +26,42 @@
   suffix: " ";
 }
 
+.prose ol {
+  /* list-style: upper-roman; */
+  list-style-position: outside;
+  /* padding-left: 0;
+  margin-left: 1em; */
+}
+
+.prose ol li::marker {
+  font-family: var(--font-typewriter);
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.prose ol ol {
+  /* list-style: lower-roman; */
+  list-style-position: outside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.prose ol ol li::marker {
+  font-family: var(--font-typewriter);
+  font-size: 0.7em;
+}
+
+.prose ul {
+  list-style-type: "๐";
+  list-style-position: outside;
+  padding-left: 0rem;
+  margin-left: 0rem;
+}
+
+.prose ul ul {
+  padding-left: 0rem;
+}
+
 @font-face {
   font-family: "typewriter";
   src: url("/Notes/fonts/typewcond_regular.otf") format("opentype");
@@ -126,17 +162,6 @@ pre code {
   color: var(--color-link-dark);
 }
 
-.prose ul {
-  list-style-type: "๑";
-  list-style-position: outside;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.prose ul ul {
-  padding-left: 1.5rem;
-}
-
 /* Theme toggle */
 .theme-toggle {
   border: 0;
@@ -167,4 +192,20 @@ pre code {
 
 .dark .moon {
   fill: #eee;
+}
+
+/* Force mutual exclusivity for mobile/desktop nav */
+@media (min-width: 768px) {
+  #mobileNav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #desktopNav {
+    display: none !important;
+  }
+  #themeToggleDesktop {
+    display: none !important;
+  }
 }
