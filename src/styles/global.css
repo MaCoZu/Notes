@@ -142,24 +142,43 @@ pre code {
 }
 
 .prose {
-  --tw-prose-headings: var(--font-typewriter);
-  --tw-prose-body: Georgia, "Times New Roman", serif;
-  --tw-prose-code: var(--font-code);
-  --tw-prose-pre-code: var(--font-code);
-  --tw-prose-ul-spacing: 0em;
-  --tw-prose-list-item-margin: 1rem;
-  --tw-prose-line-height: 2rem;
-  --tw-prose-padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 1.25rem;
   letter-spacing: 0.025em;
+  text-wrap: pretty;
+}
+
+.prose p {
+  line-height: 1.7em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  font-family: var(--font-typewriter);
+  text-wrap: balance;
+  margin-top: 1.8em;
+  /* margin-bottom: 10px; */
 }
 
 .prose a {
   color: var(--color-link);
+  text-decoration-skip-ink: auto;
 }
 
 .dark .prose a {
   color: var(--color-link-dark);
+}
+
+.prose blockquote {
+  font-style: italic;
+  hanging-punctuation: first;
+}
+
+.prose code {
+  font-size: 0.9em;
+  font-weight: normal;
 }
 
 /* Theme toggle */
