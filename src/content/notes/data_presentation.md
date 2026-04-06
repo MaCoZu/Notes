@@ -4,92 +4,53 @@ description: Techniques for making numbers visceral and memorable
 date: 2026-03-30
 ---
 
-### 1. Preparation and Strategic Structure
+## 1. Preparation and Strategic Structure
 Before presenting any data, you must establish a solid foundation for your message:
 
-#### Establish Intent
-Decide if you are leading the audience to a specific conclusion (Explanatory) or providing a neutral landscape for them to discover their own insights (Exploratory).
-#### Know Your Audience
-Tailor your message to their specific issue, data literacy, time constraints, and required level of detail. Use the “Elevator Pitch” test: can you explain your core finding in 30–60 seconds?
-#### Adopt a Logical Framework
-Structure your presentation using these models:
-  
+- Decide if you are leading the audience to a specific conclusion (explanatory) or if you're providing them with neutral information to discover their own insights (exploratory).
+- Tailor your message to their specific issue, data literacy, time constraints, and required level of detail. Use the “Elevator Pitch” test: can you explain your core finding in 30–60 seconds?
 
-1. **“What? → So What? → Now What?"**
+### Adopt a Logical Framework
+Structure your presentation using a framework. Like:
+- What? → So What? → Now What?
+- PREP (Point, Reason, Example, Point)
+- AMEN (Audience, Message, Examples, Negatives)
 
-2. **COMPEL** framework: </br>
-**C**atch attention, </br>
-**O**utline background, </br>
-**M**ake a recommendation, highlight </br>
-**P**ositives, </br>
-**E**xplain supporting context, and </br>
-**L**and the plane with a call to action.
+[17 Presentation Frameworks](https://benjaminball.com/blog/guide-to-powerful-presentation-frameworks/)
 
-### 2. Open with Impact
+
+## 2. Open with Impact
 Command attention by breaking passive listening patterns and establishing immediate relevance.
 
-#### The “Crystallize-Break" Technique
-First, build a pattern of expectations in the audience's mind, then shatter it with a surprising data point to grab attention
+- _Break expectations_ by first creating them and then revealing data that runs counter or surpasses the expected.
+- _Create narrative tension_ with alternative hypotheses or unanswered questions keeping the audience engaged.
+- _Gain trust_ from the audience -- by explaining your personal participation or concern about the topic at hand -- this reduces reservations and thereby complexity.
 
-#### Introduce Narrative Tension
-Start by proposing alternative hypotheses or unanswered questions to create “plot tension” that keeps the audience seeking for a resolution.
-
-#### Establish Authenticity & Trust
-If the audience feels that you care about the matter and society-at-large, your perceived truthfulness can build trust and thereby reduce reservation and complexity.
-
-### 3. Data and Detail Management
+## 3. Data and Detail Management
 A major barrier in data presentation is information overload. Use these techniques to maintain focus:
 
-#### Hone in on the Main Idea
-Get to your point quickly to keep the audience engaged.
+- _Get to the point quickly_ to keep the audience engaged.
+- _Add detail sparingly_, gradually or only on demand.
+- _Use a visual hierarchy and clean designs._ White space, short paragraphs, alignment and other [Design Principles](/Notes/notes/principles) help with information processing and respect the recipient's time.
+- Turn math into something memorable. E.g. tangible things and common knowledge. → [Memorable Math](/Notes/notes/communicate_numbers_1)
+- Make your graphs with consideration for your audiences time and attention. → [Charitable Charts](/Notes/notes/communicating_numbers_2)
 
-#### Add Details Sparingly
-Only include details that help the audience **feel** the intended emotion, **understand** the concept, **believe** the evidence, or **do** the requested action.
-
-#### Use Visual Hierarchy
-Implement headers, short paragraphs, and white space to guide the audience through your content. A clean layout signals respect for the recipient's time.
-
-#### Translate Math into Human Language
-Use simple words, short sentences and genuine language.
-
-Translate percentages, decimals and probabilities into tangible things and common knowledge. → [Memorable Math](/Notes/notes/communicate_numbers_1)
-
-Round numbers, remove “chart junk”, use clean & telling graphs. → [Charitable Charts](/Notes/notes/communicating_numbers_2)
-
-### 4. Verbal Delivery and Presence
+## 4. Verbal Delivery and Presence
 How you deliver the data is as important as the data itself:
+- _Timing and pacing of speech_ can be used to explain complex ideas (slow, "think time") or create a rhythm according to the narrative. 
+- Strategic silence also helps to emphasize key points, allow listeners to process information, and build anticipation.
+- _Refrain from 'hedging'_ with excessive use of “maybe” or “I think”.
+- Body language, eye-contact, expressions and gestures all make or break your speech.
 
-#### Control Your Pacing 
-Use controlled breathing and deliberate pacing. Since we think faster than others talk (the 4:1 rule), focus on slow breathing to stay present and engaged with the audience rather than just racing through your points.
 
-#### Strategic Silence 
-Use it to allow the audience to process important or shocking data points and to prevent defensive or reactive communication.
-
-#### Speak with Conviction 
-Share your views directly when asked and avoid “hedging” with excessive use of “maybe” or “I think”.
-
-#### Humanize the Data 
-_Facts tell, but stories sell_. Use "you" language rather than "we" language to make the data personally relevant to the audience.
-
-  
-
-### 5. Engagement and "Reading the Room"
+### 5. Engagement
 Make your presentation a two-way transaction. Facilitate sense-making and exploring the topic for your audience.
 
-  
-#### Monitor Nonverbal Cues
-Watch for posture, facial expressions, and eye contact. If you notice arms crossed or averted eyes, adjust your delivery to re-engage the room.
+- People grasp data better when it is described in terms of situations they can imagine or people they can relate to. → [Memorable Math](/Notes/notes/communicate_numbers_1)
+- Provide a high-level overview first, then allow the audience to zoom and filter, and finally provide details on demand. → [Schneiderman's Mantra](https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf) 
 
-#### Couch Data in Animate Agents
-Use an "agent-patient-act" order in your storytelling; people assimilate data better when it is described in terms of active agents of change.
+- [Induce critical thinking](https://www.thinkinghabitats.com/blog/educational-tools-and-techniques-for-promoting-critical-thinking) with Socratic questions, undermining expectations or even using hard-to-read fonts. 
 
-#### Schneiderman’s Mantra
-Provide a high-level overview first, then allow the audience to zoom and filter, and finally provide details on demand via hover-states or appendices.
-
-#### Induce Cognitive Strain Strategically
-If you need the audience to move from intuitive "System 1" thinking to critical "System 2" reasoning, consider using slightly harder-to-read fonts or layouts to force deeper processing.
-
-  
 
 ### 6. Land the Plane
 Don't let the presentation just "fade out." Finish with a resolution that changes behavior.
@@ -98,3 +59,9 @@ Do one or more of the following:
 - Conclude by summarizing your main points. 
 - Reveal a final stunning statistic (encore) the audience can ponder about.
 - End with a clear call to action or next steps, answering the "Now What?" question.
+
+
+### Links
+[26 Public Speaking Tips](https://www.scienceofpeople.com/public-speaking-tips/)
+
+[Schneiderman - The Eyes Have It \(1996\)](https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf)
