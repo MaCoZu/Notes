@@ -36,40 +36,102 @@
   suffix: " ";
 }
 
+/* ===== List Styling ===== */
+.prose ul,
 .prose ol {
-  /* list-style: upper-roman; */
-  list-style-position: outside;
-  /* padding-left: 0;
-  margin-left: 1em; */
-}
-
-.prose ol li::marker {
-  font-family: var(--font-typewriter);
-  font-size: 0.85em;
-  font-weight: bold;
-}
-
-.prose ol ol {
-  /* list-style: lower-roman; */
-  list-style-position: outside;
   padding-left: 0;
   margin-left: 0;
 }
 
-.prose ol ol li::marker {
-  font-family: var(--font-typewriter);
-  font-size: 0.7em;
-}
-
 .prose ul {
-  list-style-type: "๐";
-  list-style-position: outside;
-  padding-left: 0rem;
-  margin-left: 0rem;
+  list-style: none;
 }
 
+.prose ul>li {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.prose ul>li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  font-size: 1.5em;
+  line-height: 1.4;
+  color: var(--color-link);
+}
+
+.dark .prose ul>li::before {
+  color: var(--color-link-dark);
+}
+
+.prose ul>li>p {
+  margin: 0;
+}
+
+.prose ol {
+  list-style: none;
+  counter-reset: list-counter;
+}
+
+.prose ol>li {
+  position: relative;
+  padding-left: 2em;
+  counter-increment: list-counter;
+}
+
+.prose ol>li::before {
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  font-family: var(--font-typewriter);
+  font-size: 0.9em;
+  font-weight: normal;
+  color: var(--color-link);
+}
+
+.dark .prose ol>li::before {
+  color: var(--color-link-dark);
+}
+
+.prose ol>li>p {
+  margin: 0;
+}
+
+/* Nested lists */
 .prose ul ul {
-  padding-left: 0rem;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.prose ul ul>li::before {
+  content: "·";
+  font-size: 1.2em;
+}
+
+.prose ol ol {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.prose ol ol>li::before {
+  content: counter(list-counter, lower-alpha) ".";
+  font-size: 0.85em;
+}
+
+/* ===== Blockquote Styling ===== */
+.prose blockquote {
+  font-style: italic;
+  border-left: 2px solid var(--color-link);
+  padding-left: 1.25em;
+  margin-left: 0;
+  color: var(--color-text);
+  opacity: 0.85;
+}
+
+.dark .prose blockquote {
+  border-left-color: var(--color-link-dark);
+  color: var(--color-text-dark);
 }
 
 @font-face {
@@ -186,6 +248,55 @@ pre code {
   hanging-punctuation: first;
 }
 
+/* Subtle emphasis - small-caps with color shift */
+.prose .em {
+  font-variant: small-caps;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: color-mix(in srgb, var(--color-link) 65%, var(--color-text));
+}
+
+.dark .prose .em {
+  color: color-mix(in srgb, var(--color-link-dark) 65%, var(--color-text-dark));
+}
+
+/* SVG figures - centered and resizable */
+.prose figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.prose figure svg {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.prose figure img {
+  width: 100%;
+  /* max-width: 200px; */
+  height: auto;
+}
+
+.prose figure figcaption {
+  font-size: 0.85em;
+  font-family: var(--font-typewriter);
+  color: var(--color-text);
+  opacity: 0.6;
+  margin-top: -0.35em;
+  text-align: center;
+}
+
+.dark .prose figure figcaption {
+  color: var(--color-text-dark);
+}
+
+.prose figure figcaption a {
+  opacity: 1;
+}
+
 .prose code {
   font-size: 0.9em;
   font-weight: normal;
@@ -238,4 +349,100 @@ pre code {
   #themeToggleDesktop {
     display: none !important;
   }
+}
+
+/* ===== Focus States ===== */
+.prose a:focus-visible,
+.link-underline:focus-visible,
+.theme-toggle:focus-visible {
+  outline: 1px dotted var(--color-link);
+  outline-offset: 3px;
+  opacity: 0.8;
+}
+
+.dark .prose a:focus-visible,
+.dark .link-underline:focus-visible,
+.dark .theme-toggle:focus-visible {
+  outline-color: var(--color-link-dark);
+}
+
+
+
+/* ===== Reading & Contemplation Enhancements ===== */
+
+/* Shared link underline effect */
+.prose a,
+.link-underline {
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-link), var(--color-link));
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease, opacity 0.3s ease;
+}
+
+.dark .prose a,
+.dark .link-underline {
+  background-image: linear-gradient(var(--color-link-dark), var(--color-link-dark));
+}
+
+.prose a:hover,
+.link-underline:hover {
+  background-size: 0 1px;
+  opacity: 0.7;
+}
+
+/* Custom selection highlight */
+::selection {
+  background-color: rgba(79, 70, 85, 0.2);
+  color: inherit;
+}
+
+.dark ::selection {
+  background-color: rgba(226, 202, 213, 0.25);
+}
+
+/* Custom scrollbar - thin & subtle */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(79, 70, 85, 0.25);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(79, 70, 85, 0.4);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(226, 202, 213, 0.2);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(226, 202, 213, 0.35);
+}
+
+/* Subtle background grain texture */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  z-index: 9999;
+}
+
+.dark body::before {
+  opacity: 0.04;
 }

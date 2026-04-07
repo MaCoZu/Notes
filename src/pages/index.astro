@@ -1,26 +1,28 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
 
-const notes = (await getCollection('notes')).sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+const notes = (await getCollection("notes")).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
 );
 ---
 
 <Layout title="Notes">
   <ul class="list-none p-0 mt-8">
-    {notes.map((note) => (
-      <li class="mb-3">
-        <a 
-          href={`/Notes/notes/${note.slug}`} 
-          class="flex justify-between no-underline hover:underline gap-4"
-        >
-          <span>{note.data.title}</span>
-          <span class="text-gray-500 text-sm whitespace-nowrap">
-            {note.data.date.toISOString().split('T')[0]}
-          </span>
-        </a>
-      </li>
-    ))}
+    {
+      notes.map((note) => (
+        <li class="mb-3">
+          <a
+            href={`/Notes/notes/${note.slug}`}
+            class="flex justify-between no-underline hover:underline gap-4"
+          >
+            <span>{note.data.title}</span>
+            <span class="text-gray-500 text-sm whitespace-nowrap">
+              {note.data.date.toISOString().split("T")[0]}
+            </span>
+          </a>
+        </li>
+      ))
+    }
   </ul>
 </Layout>
